@@ -11,6 +11,12 @@
 		35418D892AB91EAC00447148 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35418D882AB91EAC00447148 /* ContentView.swift */; };
 		35418D8B2AB91EB100447148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35418D8A2AB91EB100447148 /* Assets.xcassets */; };
 		35418D8E2AB91EB100447148 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35418D8D2AB91EB100447148 /* Preview Assets.xcassets */; };
+		35418D952AB9211B00447148 /* TrainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35418D942AB9211B00447148 /* TrainCardView.swift */; };
+		35C6211C2AD0D2EB00E7A842 /* PlaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6211B2AD0D2EB00E7A842 /* PlaneView.swift */; };
+		35C6211E2AD0DA0700E7A842 /* BusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6211D2AD0DA0700E7A842 /* BusView.swift */; };
+		35C621202AD0DA7200E7A842 /* BoatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6211F2AD0DA7200E7A842 /* BoatView.swift */; };
+		35E08A7C2AC255E1009EDCC2 /* MeansOfTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E08A7B2AC255E1009EDCC2 /* MeansOfTransport.swift */; };
+		35E08A7E2AC25916009EDCC2 /* CardViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E08A7D2AC25916009EDCC2 /* CardViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		35418D882AB91EAC00447148 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35418D8A2AB91EB100447148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35418D8D2AB91EB100447148 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35418D942AB9211B00447148 /* TrainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCardView.swift; sourceTree = "<group>"; };
+		35C6211B2AD0D2EB00E7A842 /* PlaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneView.swift; sourceTree = "<group>"; };
+		35C6211D2AD0DA0700E7A842 /* BusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusView.swift; sourceTree = "<group>"; };
+		35C6211F2AD0DA7200E7A842 /* BoatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoatView.swift; sourceTree = "<group>"; };
+		35E08A7B2AC255E1009EDCC2 /* MeansOfTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeansOfTransport.swift; sourceTree = "<group>"; };
+		35E08A7D2AC25916009EDCC2 /* CardViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				35418D862AB91EAC00447148 /* TrenesApp.swift */,
 				35418D882AB91EAC00447148 /* ContentView.swift */,
+				35C6211F2AD0DA7200E7A842 /* BoatView.swift */,
+				35C6211B2AD0D2EB00E7A842 /* PlaneView.swift */,
+				35C6211D2AD0DA0700E7A842 /* BusView.swift */,
+				35E08A7B2AC255E1009EDCC2 /* MeansOfTransport.swift */,
+				35418D942AB9211B00447148 /* TrainCardView.swift */,
+				35E08A7D2AC25916009EDCC2 /* CardViewModifier.swift */,
 				35418D8A2AB91EB100447148 /* Assets.xcassets */,
 				35418D8C2AB91EB100447148 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C6211E2AD0DA0700E7A842 /* BusView.swift in Sources */,
 				35418D892AB91EAC00447148 /* ContentView.swift in Sources */,
+				35C621202AD0DA7200E7A842 /* BoatView.swift in Sources */,
+				35C6211C2AD0D2EB00E7A842 /* PlaneView.swift in Sources */,
 				35418D872AB91EAC00447148 /* TrenesApp.swift in Sources */,
+				35E08A7E2AC25916009EDCC2 /* CardViewModifier.swift in Sources */,
+				35418D952AB9211B00447148 /* TrainCardView.swift in Sources */,
+				35E08A7C2AC255E1009EDCC2 /* MeansOfTransport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
